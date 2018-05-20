@@ -48,6 +48,7 @@ def turn(board)
     return true 
   else 
     puts "Please enter a valid number"
+    a = gets.strip
     return 1 
   end
  
