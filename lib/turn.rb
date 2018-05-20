@@ -43,11 +43,6 @@ def turn(board)
   inni = gets.strip
   ans = input_to_index(inni)
   
-  if valid_move?(board,ans)
-  
-  return true
-else
-  return false 
-end
+ 
   
 end
