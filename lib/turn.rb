@@ -33,6 +33,8 @@ def valid_move?(board, position)
     if board[position].to_i < 0 || board[position].to_i > 8 
       puts board[position]
       return false
+    else
+      return true
     end
 end
 
