@@ -43,6 +43,7 @@ def turn(board)
   inni = gets.strip
   ans = input_to_index(inni)
   
+  valid_move?(board, ans)
  
   
 end
