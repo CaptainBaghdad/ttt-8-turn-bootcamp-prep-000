@@ -30,7 +30,7 @@ end
 
 def valid_move?(board, position)
     position = input_to_index(position)
-    if position < 0 || position > 8 && board[position] == "X" || board[position] == "O"
+    if position < 0 || position > 8 || board[position] == "X" || board[position] == "O"
       puts board[position]
       return false
     else
