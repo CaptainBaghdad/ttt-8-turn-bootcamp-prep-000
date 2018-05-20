@@ -43,7 +43,13 @@ def turn(board)
   inni = gets.strip
   ans = input_to_index(inni)
   
-  valid_move?(board, ans)
+  if valid_move?(board, ans)
+    
+    return true 
+  else 
+    puts "Please enter a valid number"
+    return 1 
+  end
  
   
 end
