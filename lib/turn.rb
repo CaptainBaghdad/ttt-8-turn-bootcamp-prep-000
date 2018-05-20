@@ -44,7 +44,7 @@ def turn(board)
   ans = input_to_index(inni)
   
   if valid_move?(board, ans)
-    move(board,ini)
+    move(board,ans)
     display_board(board)
     
   else 
