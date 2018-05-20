@@ -44,8 +44,9 @@ def turn(board)
   ans = input_to_index(inni)
   
   if valid_move?(board, ans)
+    move(board,ini)
+    display_board(board)
     
-    return true 
   else 
     puts "Please enter a valid number"
     a = gets.strip
